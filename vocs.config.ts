@@ -13,4 +13,10 @@ export default defineConfig({
       ],
     },
   ],
+  socials: [
+    {
+      icon: "github",
+      link: "https://github.com/raxhvl/elixir",
+    },
+  ],
 });
