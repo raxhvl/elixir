@@ -1,5 +1,7 @@
 import { defineConfig } from "vocs";
 
+export const githubUrl = "https://github.com/raxhvl/elixir";
+
 export default defineConfig({
   title: "Elixir 🧪",
   sidebar: [
@@ -8,7 +10,7 @@ export default defineConfig({
       items: [
         {
           text: "EIPs",
-          link: "analysis/eips",
+          link: "/analysis/eips",
         },
       ],
     },
@@ -16,7 +18,7 @@ export default defineConfig({
   socials: [
     {
       icon: "github",
-      link: "https://github.com/raxhvl/elixir",
+      link: githubUrl,
     },
   ],
 });
