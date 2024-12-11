@@ -1,6 +1,6 @@
 import { defineConfig } from "vocs";
 
-export const githubUrl = "https://github.com/raxhvl/elixir";
+import { githubUrl } from "./docs/config";
 
 export default defineConfig({
   title: "Elixir 🧪",
